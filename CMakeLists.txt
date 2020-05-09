@@ -25,5 +25,8 @@ endif()
 add_subdirectory(glfw-3.3.2)
 target_link_libraries(Test glfw)
 
+add_subdirectory(glad)
+target_link_libraries(Test glad)
+
 find_package(OpenGL REQUIRED)
 target_link_libraries(Test OpenGL::GL)
