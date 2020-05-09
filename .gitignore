@@ -5,6 +5,7 @@ CPack*
 CTest*
 DartConf*
 CMake*
+Makefile
 !CMakeLists.txt
 
 # Temp:
