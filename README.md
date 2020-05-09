@@ -8,3 +8,5 @@ A thing we're trying to do
 * `cmake .` (in repo root)
 * `make` (or equivalent command based on your compiler. (Think Windows has `make` too with MinGW ?))
 * `./Test` or `Test.exe`
+
+## Rip to our sanity (our first CPP project)
