@@ -17,8 +17,10 @@ set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 
 if(MINGW)
+    message(STATUS "WINDOWS DEPS")
     set(GLFW_LIBRARIES glfw3 opengl32)
 else()
+    message(STATUS "NOT WINDOWS")
     set(GLFW_LIBRARIES glfw3 rt Xxf86vm Xrandr Xi X11 GL)
 endif()
 
