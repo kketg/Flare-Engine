@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/6927109b-398b-4dc2-80d0-8d8688de2521/Flare-Engine
+# Install script for directory: /mnt/6927109b-398b-4dc2-80d0-8d8688de2521/test-glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/6927109b-398b-4dc2-80d0-8d8688de2521/Flare-Engine/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/6927109b-398b-4dc2-80d0-8d8688de2521/test-glfw/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

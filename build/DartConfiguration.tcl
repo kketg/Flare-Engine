@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /mnt/6927109b-398b-4dc2-80d0-8d8688de2521/Flare-Engine
-BuildDirectory: /mnt/6927109b-398b-4dc2-80d0-8d8688de2521/Flare-Engine/build
+SourceDirectory: /mnt/6927109b-398b-4dc2-80d0-8d8688de2521/test-glfw
+BuildDirectory: /mnt/6927109b-398b-4dc2-80d0-8d8688de2521/test-glfw/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/mnt/6927109b-398b-4dc2-80d0-8d8688de2521/Flare-Engine"
+ConfigureCommand: "/usr/bin/cmake" "/mnt/6927109b-398b-4dc2-80d0-8d8688de2521/test-glfw"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -57,9 +57,9 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: /usr/bin/git
+UpdateCommand: 
 UpdateOptions: 
-UpdateType: git
+UpdateType: 
 
 # Compiler info
 Compiler: /bin/x86_64-linux-gnu-g++-9
