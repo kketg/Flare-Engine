@@ -1,4 +1,0 @@
-{
-    "C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools",
-    "cmake.configureArgs": ["-DCMAKE_TOOLCHAIN_FILE=/mnt/6927109b-398b-4dc2-80d0-8d8688de2521/vcpkg/scripts/buildsystems/vcpkg.cmake"]
-}

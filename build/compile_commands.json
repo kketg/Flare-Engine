@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/mnt/6927109b-398b-4dc2-80d0-8d8688de2521/Flare-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/Flare-Engine.dir/main.cpp.o -c /mnt/6927109b-398b-4dc2-80d0-8d8688de2521/Flare-Engine/main.cpp",
-  "file": "/mnt/6927109b-398b-4dc2-80d0-8d8688de2521/Flare-Engine/main.cpp"
-}
-]
