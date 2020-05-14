@@ -1,12 +1,2 @@
-build/*
-CMakeFiles/*
-cmake*
-CPack*
-CTest*
-DartConf*
-CMake*
-Makefile
-!CMakeLists.txt
-
-# Temp:
-Test
+bin/*
+.vscode/*
